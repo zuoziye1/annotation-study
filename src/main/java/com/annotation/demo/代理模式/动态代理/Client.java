@@ -13,6 +13,7 @@ public class Client {
     public static void main(String[] args) {
         /**
          * jdk 的动态代理 生成动态代理类，可以看到class文件
+         * 默认放置在了项目根目录下的 com/sun/proxy 下面
          */
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
 
